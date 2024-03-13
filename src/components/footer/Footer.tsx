@@ -1,11 +1,11 @@
 "use client"
-import React from "react";
+import styles from './footer.module.css'
 
 const Footer = () => {
   console.log("Hello");
   
   return (
-    <div>
+    <div className={styles.container}>
       <div>©2024 Bloggero . All rights received.</div>
     </div>
   );

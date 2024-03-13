@@ -11,3 +11,20 @@ body {
   background-color: #111;
   color: #bbb;
 }
+
+a {
+  text-decoration: none;
+  color: inherit; 
+  /* take color from parent in our case its body's colour */
+}
+
+.container {
+  max-width: 1366px;
+  min-height: 100vh;
+  margin: 0 auto;
+  /* 0 for top and bottom and auto for right and left */
+  padding: 0 60px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
