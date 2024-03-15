@@ -7,7 +7,7 @@ const Navbar = () => {
     {
       id: 1,
       title: "Home",
-      url: "",
+      url: "/",
     },
     {
       id: 2,
